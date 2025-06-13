@@ -1,0 +1,8 @@
+Origin: Adekacci
+Label: Adekacci
+Suite: stable
+Codename: focal
+Version: 1.2
+Architectures: amd64 focal
+Components: main
+Description: Adekacci's Linux apt packages

@@ -1,0 +1,34 @@
+Package: downganizer
+Version: 1.0
+Architecture: all
+Maintainer: Falah Ahmed <kpfalah99@gmail.com>
+Filename: pool/main/d/downganizer/downganizer_1.0_all.deb
+Size: 2018
+MD5sum: c91ece38e83510ef19d954cd7cfea92b
+SHA1: ab1c714700a46969fc91ff2c000a962d0dadf370
+SHA256: 4127b24ee62f859882d285a30167f89cb95066e05dfcca5aec9036cc6f0a9c98
+Section: utils
+Priority: optional
+Description: A script to create a command from executable files.
+   Currently, it is only available for files like .AppImage
+   I want to add more file extensions. A helping hand is always welcome.
+   You can contact me at telegram: @chruxAdmin
+   github: @falahahmed
+
+Package: mkcmd
+Version: 1.2
+Architecture: all
+Maintainer: Falah Ahmed <kpfalah99@gmail.com>
+Filename: pool/main/m/mkcmd/mkcmd_1.2_all.deb
+Size: 1012
+MD5sum: da6204e05b4eadef941b2aa2f663306d
+SHA1: 1b5565af95f444b3e8386f63cad2d022e6436c8e
+SHA256: 4537ba3eff41ddef3df5efac8e2590183911fbd527cc48858634213a6b3be07a
+Section: utils
+Priority: optional
+Description: A script to create a command from executable files.
+   Currently, it is only available for files like .AppImage
+   I want to add more file extensions. A helping hand is always welcome.
+   You can contact me at telegram: @chruxAdmin
+   github: @falahahmed
+
