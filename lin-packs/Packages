@@ -16,14 +16,14 @@ Description: A script to create a command from executable files.
    github: @falahahmed
 
 Package: mkcmd
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Falah Ahmed <kpfalah99@gmail.com>
-Filename: pool/main/m/mkcmd/mkcmd_1.2_all.deb
-Size: 1012
-MD5sum: da6204e05b4eadef941b2aa2f663306d
-SHA1: 1b5565af95f444b3e8386f63cad2d022e6436c8e
-SHA256: 4537ba3eff41ddef3df5efac8e2590183911fbd527cc48858634213a6b3be07a
+Filename: pool/main/m/mkcmd/mkcmd_1.3_all.deb
+Size: 1538
+MD5sum: 00b6652cd42141b53704e42dacc72389
+SHA1: d23c2a0d7e563086b16f3b6b18ebe0f2bef906b6
+SHA256: da5e4a2c8fda371b20c5a039d855137258af02cf33108cfba9ffe7a5a5c5fb1f
 Section: utils
 Priority: optional
 Description: A script to create a command from executable files.
