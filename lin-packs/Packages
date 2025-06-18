@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Falah Ahmed <kpfalah99@gmail.com>
 Depends: inotify-tools (>= 3.22.6)
 Filename: pool/main/d/downganizer/downganizer_1.3.0_all.deb
-Size: 2992
-MD5sum: 6331f04bd4a555b34a5057ae67c92cf7
-SHA1: 9f103aca7f6a25cbf0cbfd158ea94d5844daaf62
-SHA256: ae674e8193b103239115c1fc4a162ea69bd0613ff449f44d5506540d4bef7141
+Size: 3058
+MD5sum: 592657776422b4deeae58b7238ef3d03
+SHA1: ffd05e9eca9fb83e0f6578e781935ad92ebd630e
+SHA256: 75eaa6f5f4ce2d13ccb1710220b5b8764021c1a42bf2232161c5b12be0dab544
 Section: utils
 Priority: optional
 Description: A script to create a command from executable files.
