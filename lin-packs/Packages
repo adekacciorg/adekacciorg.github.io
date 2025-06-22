@@ -21,10 +21,10 @@ Version: 1.3
 Architecture: all
 Maintainer: Falah Ahmed <kpfalah99@gmail.com>
 Filename: pool/main/m/mkcmd/mkcmd_1.3_all.deb
-Size: 1536
-MD5sum: 23cba0a469c6f8d3fb61d97a40f53136
-SHA1: 61c326972fa2272021397dfa9e26b4153cdd7f28
-SHA256: 7fd467307511b9adce690d5c921c8af8951e6a301ea06185e02efefe9bdc35be
+Size: 1538
+MD5sum: 9ad602bfc52fc60bb4d2ad77eedd4da0
+SHA1: f8830c308b0ee18ea7de58fbbbb1120f08cc855f
+SHA256: 12a20d65bfb861dd717c288a6554dfedf8f59989f6306c67c46ab25b4f392977
 Section: utils
 Priority: optional
 Description: A script to create a command from executable files.
