@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Lusitana } from "next/font/google";
 
-const lusitana = Lusitana({weight: ["400", "700"], subsets: ["latin"]});
+const lusitana = Lusitana({ weight: ["400", "700"], subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -9,7 +9,11 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div className="flex flex-col">
           <Loading />
-          <h2 className={`${lusitana.className} my-12 text-4xl font-semibold text-desert-sand`} > Hold on, We're working on this!</h2>
+          <h2 className="my-12 text-4xl font-semibold text-desert-sand" >
+            <span className={lusitana.className}>
+              {"Hold on, We're working on this!"}
+            </span>
+          </h2>
         </div>
       </main>
     </div>
