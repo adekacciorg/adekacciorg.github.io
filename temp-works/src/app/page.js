@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div className="flex flex-col">
           <Loading />
-          <h2 className="my-12 text-4xl font-semibold text-desert-sand" >
+          <h2 className="my-12 text-4xl font-semibold text-center text-desert-sand" >
             <span className={lusitana.className}>
               {"Hold on, We're working on this!"}
             </span>
