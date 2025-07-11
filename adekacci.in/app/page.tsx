@@ -13,7 +13,6 @@ export default function Home() {
             <Card />
           </div>
         </main>
-
       </div>
       <div className="w-full h-px bg-white mb-[2.5%]" />
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center border-white">
@@ -24,6 +23,6 @@ export default function Home() {
 
 function Card() {
   return (
-    <div className="h-42 w-72 rounded-xl border-white border-1 hover:border-primary hover:text-primary" ></div>
+    <div className="h-42 w-72 rounded-xl border-white border-1 hover:border-primary hover:text-primary" />
   );
 }
