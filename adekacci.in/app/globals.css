@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -12,11 +13,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --color-primary: #BBFFAA;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
