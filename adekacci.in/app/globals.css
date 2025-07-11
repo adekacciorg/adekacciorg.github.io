@@ -14,7 +14,7 @@
 }
 
 @theme {
-  --color-primary: #BBFFAA;
+  --color-primary-green: #BBFFAA;
 }
 
 @media (prefers-color-scheme: dark) {
