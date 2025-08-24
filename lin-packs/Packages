@@ -22,15 +22,15 @@ Architecture: all
 Maintainer: Falah Ahmed <kpfalah99@gmail.com>
 Depends: inotify-tools (>= 3.22.6)
 Filename: pool/main/d/downganizer-beta/downganizer-beta_1.3.2_all.deb
-Size: 3090
-MD5sum: 75e640271136d4de96cf4038c7d17100
-SHA1: 745ec09cf83e3d447d1bccb91bf4b400e9e9f4a7
-SHA256: be4c4dfd27b7b1bb5531ffab9dbac944e8cf0d4b782de46727a6af85851d08e0
+Size: 3210
+MD5sum: 0d11302b3a9af2c41409508acea95309
+SHA1: 913598a7f4859c50a03b1aa2631948aee4866c16
+SHA256: 58e412c8745987ef274f33ddb3257dcfabebdf50c31b5e978e71c859a52c6a09
 Section: utils
 Priority: optional
-Description: A script to create a command from executable files.
-   Currently, it is only available for files like .AppImage
-   I want to add more file extensions. A helping hand is always welcome.
+Description: A script to automate organizing download files
+   You can utilize available options to organize your downloaded files
+   I'm planning to extend organizing criteria and to develop gui. A helping hand is always welcome.
    You can contact me at telegram: @chruxAdmin
    github: @falahahmed
 
