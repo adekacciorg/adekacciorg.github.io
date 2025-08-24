@@ -17,15 +17,15 @@ Description: A script to automate organizing download files
    github: @falahahmed
 
 Package: downganizer-beta
-Version: 1.3.2
+Version: 1.4.0
 Architecture: all
 Maintainer: Falah Ahmed <kpfalah99@gmail.com>
 Depends: inotify-tools (>= 3.22.6)
-Filename: pool/main/d/downganizer-beta/downganizer-beta_1.3.2_all.deb
-Size: 3210
-MD5sum: 0d11302b3a9af2c41409508acea95309
-SHA1: 913598a7f4859c50a03b1aa2631948aee4866c16
-SHA256: 58e412c8745987ef274f33ddb3257dcfabebdf50c31b5e978e71c859a52c6a09
+Filename: pool/main/d/downganizer-beta/downganizer-beta_1.4.0_all.deb
+Size: 3230
+MD5sum: 1fb4fa1147f4a75e301470f6697403a0
+SHA1: 78f055cb39039096eeeee6479381613b5d30cdde
+SHA256: 8ff5ce261376c2ee64d4a2fe305a4adad27827548c599a82ccdf5bba1c10fba1
 Section: utils
 Priority: optional
 Description: A script to automate organizing download files
