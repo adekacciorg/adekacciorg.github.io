@@ -2,6 +2,7 @@
 
 # dependencies
 adekacci.in/node_modules/
+.vscode/
 /.pnp
 .pnp.js
 

@@ -1,12 +1,11 @@
-
-
 default:
 	@echo "Only for updating packs. nothin else intended"
 
 update:
-	@cd lin-packs && dpkg-scanpackages --arch all pool/ > Packages
-	@cd lin-packs && gzip -kf Packages
-	@echo "Packages updated in lin-packs directory"
+	@cd lin-packs && dpkg-scanpackages --arch all pool/ > Packages 2>/dev/null
+	@cd lin-packs && gzip -kf Packages 2>/dev/null
+	@cd man-pacs && repo-add adekacci.db.tar.gz *.pkg.tar.zst 2>/dev/null
+	@echo "Packages updated in package directories"
 
 gitup:
 	@git add .
