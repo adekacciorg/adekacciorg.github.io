@@ -16,24 +16,6 @@ Description: A script to automate organizing download files
    You can contact me at telegram: @chruxAdmin
    github: @falahahmed
 
-Package: downganizer-beta
-Version: 1.4.0
-Architecture: all
-Maintainer: Falah Ahmed <kpfalah99@gmail.com>
-Depends: inotify-tools (>= 3.22.6)
-Filename: pool/main/d/downganizer-beta/downganizer-beta_1.4.0_all.deb
-Size: 3154
-MD5sum: 9e3e617c622994646601e7d44abf368d
-SHA1: 18d75febd2607efe36ae38b217d083b28d645118
-SHA256: 5b97547137c2b41be386e91ce1957f7dfcf5276a93bc6bec19a2c28b181b088b
-Section: utils
-Priority: optional
-Description: A script to automate organizing download files
-   You can utilize available options to organize your downloaded files
-   I'm planning to extend organizing criteria and to develop gui. A helping hand is always welcome.
-   You can contact me at telegram: @chruxAdmin
-   github: @falahahmed
-
 Package: mkcmd
 Version: 1.3
 Architecture: all
