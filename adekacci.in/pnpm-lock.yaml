@@ -20,9 +20,6 @@ importers:
       next:
         specifier: 15.3.3
         version: 15.3.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      nextra:
-        specifier: ^4.4.0
-        version: 4.4.0(next@15.3.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2)
       nextra-theme-docs:
         specifier: ^4.4.0
         version: 4.4.0(@types/react@19.1.12)(next@15.3.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(nextra@4.4.0(next@15.3.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(use-sync-external-store@1.5.0(react@19.1.1))
