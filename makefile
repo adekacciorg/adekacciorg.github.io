@@ -7,7 +7,7 @@ default:
 update:
 	@echo "$(sys)" > SYS
 	@if [ "$(sys)" = "deb" ]; then \
-		cd lin-packs && dpkg-scanpackages --arch all pool/ > Packages ; \
+		cd lin-packs && dpkg-scanpackages --multiversion --arch all pool/ > Packages ; \
 		gzip -kf Packages ; \
 	else \
 		cd man-pacs && repo-add adekacci.db.tar.gz *.pkg.tar.zst ; \
