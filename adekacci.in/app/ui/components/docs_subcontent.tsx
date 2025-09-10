@@ -4,6 +4,7 @@ export default function DocsSubcontent({children, title}: {children: React.React
 	return (
 		<>
 		{children}
+		{title}
 		</>
 	);
 }

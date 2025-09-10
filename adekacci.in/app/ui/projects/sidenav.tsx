@@ -20,7 +20,7 @@ export default function SideNav({ project, navLinks }: { project: Project, navLi
 				</div>
 				<div>
 					{navLinks.map((link) => (
-						<a>{link.name}</a>
+						<a key={link.href}>{link.name}</a>
 					))}
 				</div>
 			</div>
