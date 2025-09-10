@@ -1,12 +1,12 @@
 import { Url } from "next/dist/shared/lib/router/router";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="h-screen">
       <div className="grid grid-rows-[20px_1fr_20px] items-center mt-8 justify-items-center p-4 md:p-8 md:mb-[4%] pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <div className="libertinus-mono-regular text-5xl md:text-8xl mt-12 m-4 md:m-8">Adekacci.<span className="text-desert-sand dark:text-light-green">ORG</span></div>
+        <div className="libertinus-mono-regular text-5xl md:text-8xl mt-12 m-4 md:m-8">Adekacc<span className="text-desert-sand dark:text-light-green">i</span></div>
         <main className="flex flex-col gap-[32px] m-4 md:m-8 p-4 md:p-8 items-center sm:items-start">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-4 md:mt-8">
             <Card

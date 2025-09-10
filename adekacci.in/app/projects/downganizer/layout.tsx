@@ -1,11 +1,14 @@
+'use client'
 import { Project, ProjectNavLink } from "@/lib/definitions";
+import { changeFavicon } from "@/lib/favicon";
 import SideNav from "@/ui/projects/sidenav";
+import { useEffect } from "react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
 	const project: Project = {
 		name: "Downganizer",
 		href: "/projects/downganizer",
-		logo: ""
+		logo: "/downganizer.ico"
 	}
 
 	const navLinks: ProjectNavLink[] = [
@@ -15,6 +18,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 			sub: [],
 		}
 	]
+
+	useEffect(() => {
+		changeFavicon('../downganizer.ico');
+	});
 
 	return (
 		<div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
