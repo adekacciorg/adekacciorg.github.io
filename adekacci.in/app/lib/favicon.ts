@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 
 export const changeFavicon = (iconUrl: string) => {
   let favicon = document.querySelector("link[rel*='icon']") as HTMLLinkElement | null;
