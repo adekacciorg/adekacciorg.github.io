@@ -9,5 +9,5 @@ export type Project = {
 export type ProjectNavLink = {
 	name: string;
 	href: string;
-	sub: ProjectNavLink[] | null;
+	sub?: ProjectNavLink[];
 }

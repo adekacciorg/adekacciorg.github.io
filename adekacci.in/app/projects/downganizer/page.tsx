@@ -1,12 +1,10 @@
-import DocsSubcontent from "@/ui/components/docs_subcontent";
+import WorkingOnIt from "@/ui/components/working_on_it";
 
 
 export default function Home(){
 	return (
 		<div>
-			<DocsSubcontent title="Downganizer">
-				<p className="mb-4">Hello World</p>
-			</DocsSubcontent>
+			<WorkingOnIt />
 		</div>
 	);
 }
