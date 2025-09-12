@@ -14,7 +14,27 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 	const navLinks: ProjectNavLink[] = [
 		{
 			name: "Introduction",
-			href: "",
+			href: "/projects/downganizer/introduction",
+			sub: [],
+		},
+		{
+			name: "Installation",
+			href: "/projects/downganizer/installation",
+			sub: [],
+		},
+		{
+			name: "Usage",
+			href: "/projects/downganizer/usage",
+			sub: [],
+		},
+		{
+			name: "Configuration",
+			href: "/projects/downganizer/configuration",
+			sub: [],
+		},
+		{
+			name: "Changelog",
+			href: "/projects/downganizer/changelog",
 			sub: [],
 		}
 	]

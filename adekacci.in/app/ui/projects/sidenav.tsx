@@ -1,8 +1,11 @@
 import { Project, ProjectNavLink } from "@/lib/definitions";
+import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function SideNav({ project, navLinks }: { project: Project, navLinks: ProjectNavLink[] }) {
-	// const path = `/projects/${project}`;
+	const pathName = usePathname();
 	return (
 		<>
 			<div className="h-screen w-full md:w-64 bg-gray-100 dark:bg-gray-900 p-6">
@@ -20,7 +23,18 @@ export default function SideNav({ project, navLinks }: { project: Project, navLi
 				</div>
 				<div>
 					{navLinks.map((link) => (
-						<a key={link.href}>{link.name}</a>
+						<Link
+							href={link.href}
+							key={link.name}
+							className={clsx(
+								`block px-4 py-2 mb-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800`,
+								{
+									'bg-gray-300 dark:bg-gray-700 font-semibold': pathName == link.href,
+								},
+							)}
+						>
+							{link.name}
+						</Link>
 					))}
 				</div>
 			</div>
