@@ -45,6 +45,7 @@ export default function SideNav({ project, navLinks }: { project: Project, navLi
 							{link.sub && link.sub.length > 0 && pathName == link.href && (
 								<div className="ml-4 mb-4 transition-all duration-300 ease-in-out overflow-hidden animate-fadeIn">
 									{link.sub.map((sublink, index) => (
+										console.log(index),
 										<Link
 											href={sublink.href}
 											onClick={
