@@ -43,8 +43,8 @@ export default function SideNav({ project, navLinks }: { project: Project, navLi
 								{link.name}
 							</Link>
 							{link.sub && link.sub.length > 0 && pathName == link.href && (
-								<div className="ml-4 mb-4">
-									{link.sub.map((sublink) => (
+								<div className="ml-4 mb-4 transition-all duration-300 ease-in-out overflow-hidden animate-fadeIn">
+									{link.sub.map((sublink, index) => (
 										<Link
 											href={sublink.href}
 											onClick={
@@ -52,7 +52,9 @@ export default function SideNav({ project, navLinks }: { project: Project, navLi
 											}
 											key={sublink.name}
 											className={clsx(
-												`block px-4 py-2 mb-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800 text-sm`,
+												`block px-4 py-2 mb-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800 text-sm transition-all duration-200`,
+												`animate-in-${index}`,
+												// `animation-delay-${index * 100}`,
 												{
 													'bg-gray-200 dark:bg-gray-800 font-semibold': hashPath == sublink.href,
 												},

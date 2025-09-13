@@ -14,15 +14,25 @@
 }
 
 @theme {
-  --animate-load : Load 0.7s ease infinite;
-  --animate-load-1 : Load 0.7s ease 0.1s infinite;
-  --animate-load-2 : Load 0.7s ease 0.2s infinite;
-  --animate-load-3 : Load 0.7s ease 0.3s infinite;
-  --animate-load-4 : Load 0.7s ease 0.4s infinite;
-  --animate-load-5 : Load 0.7s ease 0.5s infinite;
-  --animate-load-6 : Load 0.7s ease 0.6s infinite;
-  --animate-load-7 : Load 0.7s ease 0.7s infinite;
+  --animate-load: Load 0.7s ease infinite;
+  --animate-load-1: Load 0.7s ease 0.1s infinite;
+  --animate-load-2: Load 0.7s ease 0.2s infinite;
+  --animate-load-3: Load 0.7s ease 0.3s infinite;
+  --animate-load-4: Load 0.7s ease 0.4s infinite;
+  --animate-load-5: Load 0.7s ease 0.5s infinite;
+  --animate-load-6: Load 0.7s ease 0.6s infinite;
+  --animate-load-7: Load 0.7s ease 0.7s infinite;
 
+  --animate-in-0: fadeIn 0.3s ease forwards;
+  --animate-in-1: fadeIn 0.3s ease 0.1s forwards; 
+  --animate-in-2: fadeIn 0.3s ease 0.2s forwards;
+  --animate-in-3: fadeIn 0.3s ease 0.3s forwards;
+  --animate-in-4: fadeIn 0.3s ease 0.4s forwards;
+  --animate-in-5: fadeIn 0.3s ease 0.5s forwards;
+  --animate-in-6: fadeIn 0.3s ease 0.6s forwards;
+  --animate-in-7: fadeIn 0.3s ease 0.7s forwards;
+  --animate-in-8: fadeIn 0.3s ease 0.8s forwards;
+  --animate-in-9: fadeIn 0.3s ease 0.9s forwards;
 
   --color-light-green: #BBFFAA;
   --color-desert-sand: #EECDAD;
@@ -31,8 +41,21 @@
     0% {
       opacity: 1;
     }
+
     100% {
       opacity: 0;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 }
