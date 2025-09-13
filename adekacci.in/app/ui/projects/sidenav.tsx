@@ -3,8 +3,8 @@ import useHash from "@/lib/utils/paths";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function SideNav({ project, navLinks }: { project: Project, navLinks: ProjectNavLink[] }) {
 	const pathName = usePathname();
